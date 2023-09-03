@@ -17,7 +17,7 @@ public class ArrayOperator {
         String[] ss = new String[10];
 
         // 初始化并赋值
-        String[] si = {"a", "b"};
+        String[] si = { "a", "b" };
 
         // list转数组
         List<String> l = new ArrayList<>();
