@@ -18,8 +18,7 @@ public class Employee extends EmployFather implements java.io.Serializable {
     public int number;
 
     public void mailCheck() {
-        System.out.println("Mailing a check to " + name
-                + " " + address);
+        System.out.println("Mailing a check to " + name + " " + address);
     }
 
     private void writeObject(ObjectOutputStream out) throws Exception {

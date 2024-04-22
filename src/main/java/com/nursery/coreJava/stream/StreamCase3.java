@@ -1,13 +1,9 @@
 package com.nursery.coreJava.stream;
 
 import java.util.Arrays;
-import java.util.Comparator;
-import java.util.DoubleSummaryStatistics;
 import java.util.List;
 import java.util.function.Function;
 import java.util.stream.Collectors;
-
-import static java.util.stream.Collectors.joining;
 
 /**
  * <stream流api结果流操作><br>
@@ -55,6 +51,7 @@ public class StreamCase3 {
         // 按是否大于4分组
         System.out.println(list.stream().collect(Collectors.partitioningBy(x -> x > 4)));
         // 分组
+        System.out.println("fenzu");
         System.out.println(list.stream().collect(Collectors.groupingBy(Function.identity())));
 
         // 连接成字符串
